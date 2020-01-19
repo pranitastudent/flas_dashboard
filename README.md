@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/pranitastudent/flas_dashboard.svg?branch=master)](https://travis-ci.org/pranitastudent/flas_dashboard)
