@@ -1,9 +1,7 @@
 language: python
 python:
-    - "3.8"
+  - "3.8"
+# command to install dependencies
 install: "pip install -r requirements.txt"
-before_script:
-  - easy_install distribute
-  - pip install -r requirements.txt
-script:
-- flask run
+# command to run tests
+script: "python manage.py test"
