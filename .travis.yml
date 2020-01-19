@@ -6,4 +6,4 @@ before_script:
   - easy_install distribute
   - pip install -r requirements.txt
 script:
-- SECRET_KEY="whatever" ./main.py test
+- python run main.py
